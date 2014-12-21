@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 上面两个方角，下面两个圆角 -->
+    <!-- 背景 -->
+    <gradient
+        android:angle="270"
+        android:endColor="#cc808080"
+        android:startColor="#cc808080" >
+    </gradient>
+    <!-- 边界线 -->
+    <!--
+         <stroke
+        android:width="3px"
+        android:color="#79d2ff" />
+    -->
+
+    <stroke
+        android:width="3px"
+        android:color="#7cc1f2" />
+
+    <corners android:radius="6dp" >
+    </corners>
+
+</shape>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/xlistview_footer_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/xlistview_footer_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/img_view_id"
+                android:layout_width="19dip"
+                android:layout_height="19dip"
+                android:layout_gravity="center"
+                android:background="@anim/lockscreen_news_joke_loading_anim" />
+
+            <TextView
+                android:id="@+id/text_view_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dip"
+                android:text="正在加载..."
+                android:textColor="#6a6a6a" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
